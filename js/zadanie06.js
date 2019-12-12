@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(readyList)
         document.getElementById("button-1").addEventListener("click", function(newContent)
         {
             var newContent = document.createElement("li");
-            readyList.appendChild(newContent).innerHTML = "Chleb";
+            readyList.appendChild(newContent).innerHTML = "chleb";
         });
         document.getElementById("button-2").addEventListener("click", function()
         {
